@@ -18,7 +18,7 @@ document.getElementById("botao").addEventListener("click", function () {
     document.getElementById("pessoas").innerHTML = "<b>Nome: </b>" + json.nome + "<br>" + "<b>Idade: </b>" + json.idade + "<br>" + "<b>Afiliação: </b>" + json.afiliacao + "<br>" + "<b>Função: </b>" + json.funcao + "<br>" ;
     document.getElementById("imagem").src = "imagens/dva.jpg";
     document.getElementById("descricao").innerHTML ="<b><h3>História de origem:</h3></b><br>" + "Hana Song, mais conhecida pelo artístico “D.Va”, é a número 1. Como ex-jogadora profissional, D.Va usa suas habilidades para pilotar um mecha e defender a Coreia do Sul. Ela e os outros pilotos, conhecidos como Esquadrão MEKA, são a linha de defensa entre o país e os Kishin invasores, uma ameaça mecânica das profundezas.";
-    // a.href = json.link;
+    a.href = json.link;
 });
 
 document.getElementById("botao2").addEventListener("click", function () {
